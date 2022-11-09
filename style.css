@@ -9,8 +9,8 @@ ul {
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 #wrapper {
@@ -19,7 +19,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 100vw;
     width: 100%;
+    min-height: 100vh;
     height: 100%;
     background: #FFB80E;
 }
@@ -40,7 +42,8 @@ body {
 }
 
 #logo {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
 }
 
 #social {
